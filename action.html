@@ -596,7 +596,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               
               <!--Section: Design Block-->
 
-            </div> </section>
+			</div> </section> </div>
             <!-- Container for demo purpose -->
      
   
@@ -608,7 +608,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       
       
-<!-- Footer -->
+ <!-- Footer -->
         <footer class="bg-dark text-center text-white">
             
           <!-- Grid container -->
@@ -676,8 +676,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Footer -->
       
     <!-- End Footer Section here -->
-			 
-	  </div></body>
+      
+	  </body>
 
   <!-- MDB ESSENTIAL -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
@@ -685,4 +685,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script type="text/javascript" src="plugins/js/all.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+    
+  <!-- Lightbox JS Script Begin -->
+      
+<script>
+    
+$('#modal1').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});
+
+$('#modal6').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+});
+
+$('#modal4').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+});
+  
+</script>
+
+<!-- Lightbox JS Script End -->
+    
+
 </html>
