@@ -27,31 +27,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="plugins/css/all.min.css" />
     <!-- Special DX Playbook CSS Sheet -->
     <link rel="stylesheet" href="css/dxplaybook.css" />
+	<link rel="stylesheet" href="css/videoplaylist.css" />
+	<link rel="stylesheet" href="css/flipcards.css" />
+	<link rel="stylesheet" href="css/timeline.css" />
         
     <!-- Custom styles -->
       
     <style></style>
-      
-<!-- Redirect Background Image Css Code Begin -->
-	
-<style>
-bodybg {
-  background-image: url('https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/Coming_Soon_Background.jpg?raw=true');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
-</style>
-	
-<!-- Redirect Background Image CSS Code End -->
-	
-<!-- Refresh/Redirect Page Begin -->
-<script language="JavaScript" type="text/javascript">
-        setTimeout("window.history.go(-1)",9000);
-</script>
-<!-- Refresh/Redirect Page End -->
-      
-      
+        
       
   </head>
 
@@ -465,72 +448,710 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           
         
         
-    <!-- What is Adaptability Section begin -->  
-           
-        <section style="text-align: center;" id="adaptability">
-          <div class="container" style="margin-top: 60px; margin-bottom: 60px; display: inline-block">
-              
-                <!-- What is Adaptability Header Begin -->
-                <div class="row" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="500">
-                  <div class="col-12 text-center">
-                    <div style="font-size: 8vh;"><b> What is Conceptual Thinking? </b></div>
-                      
-                      <!-- Adaptability Certification Button Begin -->
-                    
-                    <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2"  role="button"> Earn completion in Success Factors Coming Soon! </a>
-                    
-                    <!-- Adaptability Certification Button Begin -->
-                      
-                  </div>
-                    
-                </div>
-                  <section style="justify-content: center; margin-top: 60px" >
-                    <article style="background-image: url('https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/Coming_Soon_BackgroundV2.jpg?raw=true'); background-repeat: no-repeat; background-attachment: fixed;  background-size: cover;">
-                      <p> . </p>
-                      <br>
-                      <h1 style="margin-top: 90px; color: white;  text-align: center"> <b> We are developing the Conceptual Thinking Deep Dive Page! </b></h1>
-                      <br>
-                      <br>
-                      <div style="margin-top: 90px; color: white;  text-align: center">
-                        <h3> You will be redirected to previous page = <span id="timer"> </span></h3>
-                      </div>
-                      <script>  
-		  
-		  document.getElementById('timer').innerHTML =
-		  000 + ":" + 10;
-		startTimer();
+    <!-- Hook Question Begins here -->
+		
+	
+            <section class="container col-12" style="padding-top: 15px; padding-bottom: 15px" id="cthookquestion">
+            
+            <div class="row justify-content-center border-0" style="margin-bottom: 60px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="900" >
+                
 
-		function startTimer() {
-		  var presentTime = document.getElementById('timer').innerHTML;
-		  var timeArray = presentTime.split(/[:]+/);
-		  var m = timeArray[0];
-		  var s = checkSecond((timeArray[1] - 1));
-		  if(s==59){m=m-1}
-		  //if(m<0){alert('timer completed')}
+              <iframe src="custom/conceptualthinking_earn_credit/index.html" title="mykmbs" width="100%" height="800">  </iframe>
+                
 
-		  document.getElementById('timer').innerHTML =
-			m + ":" + s;
-		  console.log(m)
-		  setTimeout(startTimer, 1000);
-		}
+            </div>
 
-		function checkSecond(sec) {
-		  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
-		  if (sec < 0) {sec = "59"};
-		  return sec;
-		}
+        </section>
 
+        <!-- Hook Question End here -->
+		
+		<!-- Tab Section Starts here -->
+		
+		
+		<section style="margin-bottom: 70px; margin-top: -88px" id="cttabs1">
+			
+			<div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+			
+			<h1 class="mb-5 text" style="font-size: 7vh; text-align: center;"> <b>What is Conceptual Thinking?</b></h1>
+			
+				
+		<!-- Tabs navs -->
+			<ul class="nav nav-tabs nav-justified mb-3" id="ex1" role="tablist">
+			  <li class="nav-item" role="presentation">
+				<a
+				  class="nav-link active"
+				  id="ex3-tab-1"
+				  data-mdb-toggle="tab"
+				  href="#ex3-tabs-1"
+				  role="tab"
+				  aria-controls="ex3-tabs-1"
+				  aria-selected="true"
+				  ><h6>An individual who thinks conceptually...</h6></a
+				>
+			  </li>
+			  <li class="nav-item" role="presentation">
+				<a
+				  class="nav-link"
+				  id="ex3-tab-2"
+				  data-mdb-toggle="tab"
+				  href="#ex3-tabs-2"
+				  role="tab"
+				  aria-controls="ex3-tabs-2"
+				  aria-selected="false"
+				  ><h6>And behaves in this way...</h6></a
+				>
+			  </li>
+			  <li class="nav-item" role="presentation">
+				<a
+				  class="nav-link"
+				  id="ex3-tab-3"
+				  data-mdb-toggle="tab"
+				  href="#ex3-tabs-3"
+				  role="tab"
+				  aria-controls="ex3-tabs-3"
+				  aria-selected="false"
+				  ><h6>Possesses this type of mindset...</h6></a
+				>
+			  </li>
+				<li class="nav-item" role="presentation">
+				<a
+				  class="nav-link"
+				  id="ex3-tab-4"
+				  data-mdb-toggle="tab"
+				  href="#ex3-tabs-4"
+				  role="tab"
+				  aria-controls="ex3-tabs-4"
+				  aria-selected="false"
+				  ><h6>And less of this type of mindset...</h6></a
+				>
+			  </li>
+			</ul>
+			<!-- Tabs navs -->
 
-		              </script>
-                      <p> . </p>
-                    </article>
-                  </section>
-                  <!-- What is.... Placeholder End ... -->
-               </div>
-</section>       </div>
-      
+			<!-- Tabs content -->
+			<div class="tab-content" id="ex2-content">
+			  <div
+				class="tab-pane fade show active"
+				id="ex3-tabs-1"
+				role="tabpanel"
+				aria-labelledby="ex3-tab-1"
+			>
+				  <audio controls>
+					<source src="audio/CT/CT_1.mp3" type="audio/mpeg" id="wct1a">
+					Your browser does not support the audio element.
+					</audio><br>Click the play button to listen to the audio.<br><br>
+				  <ul>
+						<li>Is able to think systemically and abstractly.</li> 
+						<li>Effortlessly understands complex ideas and scenarios, and how organizational events and relationships interrelate and influence one another. </li>
+						<li>Focuses on the big picture and easily applies insights to situations in order to problem solve. Considers new ideas as opportunities for innovation and improvement. </li>
+						<li>Consistently thinks beyond the scope of  day-to-day activities, and connects different concepts and contrasting ideas to provide creative solutions to broad based issues. </li>
+				</ul>
+			  </div>
+			  <div
+				class="tab-pane fade"
+				id="ex3-tabs-2"
+				role="tabpanel"
+				aria-labelledby="ex3-tab-2"
+			  >
+				  <audio controls>
+					<source src="audio/CT/CT_2.mp3" type="audio/mpeg" id="wct2a">
+					Your browser does not support the audio element.
+					</audio><br>Click the play button to listen to the audio.<br><br>
+				  
+				<ul>
+					<li>Connects different concepts and shares potential ideas with a focus on improvement and solution creation.</li>
+					<li>Applies observations of similarities and differences from past events and experiences to analyze trends, evaluate new situations and generate solutions.</li>
+					<li>Engages with colleagues across the organization to  improve business scenarios by contributing new ideas, potential options and alternatives.</li>
+					<li>Invites and involves others to explore new ideas with a focus on providing sustainable solutions that resolve core business challenges.</li>
+					<li>Embraces the interdependencies of different projects and initiatives to foster their integration and adoption across the wider organization.</li>
+				</ul>
+			  </div>
+			  <div
+				class="tab-pane fade"
+				id="ex3-tabs-3"
+				role="tabpanel"
+				aria-labelledby="ex3-tab-3"
+			  >
+				  <audio controls>
+					<source src="audio/CT/More.mp3" type="audio/mpeg" id="wct3a">
+					Your browser does not support the audio element.
+					</audio><br>Click the play button to listen to the audio.<br><br>
+				  
+				  <ul>
+					<li>When I problem solve, I do so with the goal of applying innovative thinking and implementing creative solutions across the organization rather than solely within my department.</li>
+					<li>Applying the knowledge acquired from understanding the similarities, differences, and trends from past events allows me to analyze new situations in a more effective way.</li>
+					<li>Because I have a good understanding of the business and the interdependencies that exist within the wider organization, I am able to clearly define the root of a problem and develop creative options as potential solutions.</li>
+					<li>I provide value to the organization when I think in a systematic way, understand complex scenarios and visualize the impact of decisions and events across the organization.</li>
+					<li>I actively explore complex situations and engage others to participate in analyzing different aspects of the organization so that new ideas for providing sustainable solutions to core challenges can emerge.</li>
+				  </ul>
+			  </div>
+				<div
+				class="tab-pane fade"
+				id="ex3-tabs-4"
+				role="tabpanel"
+				aria-labelledby="ex3-tab-4"
+			  >
+					<audio controls>
+					<source src="audio/CT/Less.mp3" type="audio/mpeg" id="wctc4a">
+					Your browser does not support the audio element.
+					</audio><br>Click the play button to listen to the audio.<br><br>
+					
+				<ul>
+					<li>Problem solving should be confined to issues that impact only your department so that things get done quickly.</li>
+					<li>It&#39;s a waste of time to consider past events when analyzing new situations. Past experiences and trends are not relevant to the situations I am analyzing today.</li>
+					<li>Big picture thinkers have a poor perception of what business is like in the real world.</li>
+					<li>Getting involved with understanding the work provided by other departments in the organization provides little to no value to the business.</li>
+					<li>Engaging others to problem solve is often a waste of time. I can resolve complex problems easily and develop solutions that are good enough.</li>
+				</ul>
+			  </div>
+			</div>
+		   </div>
+			<!-- Tabs content -->
+		</section> 
+		
+		<!-- Tab Section End Here -->
+		
+		
+		
+		<!-- Example Video Begins -->	
+
+				<section id="ctexamplevideo" class="container" style="text-align: center; margin-bottom: 90px;">
+
+					<h1 class="mb-5 text" style="font-size: 7vh; text-align: center;"> <b>Let's Look at an Example</b></h1>
+
+				<div class="ratio ratio-16x9" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="300">
+
+				<iframe src="https://bcove.video/3g1kBVv" allowfullscreen="true" allow="encrypted-media" width="960" height="540"></iframe>
+
+				</div></section> 
+
+			<!-- Example Tour Video Ends --> 
+		
+	
+               <!-- Jam Question 1 Begins here -->
+		
         
-    <!-- What is Adaptability Section End -->
+              <section data-draggable="true" class="" style="position: relative;" id="ctjamquestion1"><!---->
+                  
+                  <!---->
+                  
+                  <section draggable="true" class="container pt-5" data-v-271253ee="">
+                      
+                    <section class="mb-10"> <style> @media (min-width: 992px) { #cta-img-nml-50 { margin-left: 50px; } } </style> 
+                        
+                    <div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700"> 
+                        
+                    <div class="col-lg-5 mb-4 mb-md-0"> 
+                        
+                    <div class="d-flex py-md-5"> 
+                        <img src="https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/conceptual-for-brainstorming.jpg?raw=true" class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10" alt="" aria-controls="#picker-editor"> 
+                    </div> 
+                        
+                    </div> 
+                        
+                    <div class="col-lg-7 mb-4 mb-md-0"> 
+                        
+                    <div class="bg-info h-100 rounded-6 p-4 ps-lg-5 text-white d-flex align-items-center"> 
+                        
+                        <div class="ps-lg-5"> 
+                            <h2 class="fw-bold mb-4"> Do you have a story to share about Conceptual Thinking? </h2> 
+                            
+                            
+                              <!-- Read Blog Button Begin -->
+                    
+                                <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2" href="https://jam4.sapjam.com/discussions/PVJx1rmfIvUCGRADHwVYDW" target="_blank" role="button" id="ctdiscuss1"> Let's Discuss </a>
+                    
+                               <!-- Read Blog Button End -->
+                            
+                        </div> 
+                        
+                        </div> 
+                        
+                        </div> </div>
+                      
+                      </section>
+                  
+                  </section>
+        
+        </section>
+
+        <!-- Jam Question 1 End here -->
+		
+		
+		
+		<!-- Flipcard Section 1 Begin -->
+	
+				
+	  <section class="flipcards" style="text-align: center; margin-top: 70px; margin-bottom: 70px" id="whatsinitforFlipcards">
+		  
+		  		<div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+		
+				<h1 class="mb-4 text" style="font-size: 7vh; text-align: center;"> 
+					
+				<b>What&#39;s in it for....</b></h1>	
+		  		<p style="margin-bottom: 40px;">Now that you have a better understanding of what it means to Think Conceptually, let&#39;s take a look at the benefits. What&#39;s In it for you, your team and Konica Minolta?</p>
+
+				<div class="row justify-content-center">
+
+				  <!-- Flipcard 1 Begin -->
+
+				  <div class="flip-card col-sm-8 col-md-5 col-lg-4" style="margin-bottom: 40px">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front" style="padding: 30px">
+						<h3 style="color: #0062c2; margin-bottom: 0px"> <b> You?</b></h3>
+						<br>
+						<br>
+						<p> <i> Rollover to scroll information </i></p>
+					  </div>
+					  <div class="flip-card-back" style="padding: 20px; text-align: left">
+						<h5>You?</h5>
+						<br>
+						<div class="overflow-auto anyClass">
+						  <p><ul>
+							<li>When I approach complex issues in a more systematic and holistic way, I develop more comprehensive solutions to issues that impact the organization.</li>
+							<li>When I engage others to analyze potential problems, I am better able to address issues across the organization.</li>
+							<li>Adopting a &#34;big picture perspective&#34; when evaluating business processes provides value to multiple areas of the organization and facilitates professional growth. </li>
+							<li>Evaluating the complexities of the business in a broader way contributes to creating solutions that are measurable and actionable.</li>
+ 							</ul></p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+				  <!-- Flipcard 1 End -->
+
+				  <!-- Flipcard 2 Begin -->
+
+				  <div class="flip-card col-sm-8 col-md-5 col-lg-4" style="margin-bottom: 20px">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front" style="padding: 30px">
+						<h3 style="color: #0062c2; margin-bottom: 0px"> <b>Your team?</b></h3>
+						<br>
+						<br>
+						<p> <i> Rollover to scroll information </i></p>
+					  </div>
+					  <div class="flip-card-back" style="padding: 20px; text-align: left">
+						<h5>Your team?</h5>
+						<br>
+						<div class="overflow-auto anyClass">
+						  <p><ul>
+							<li>Providing a big picture view of the organization&#39;s key initiatives allows my team to understand the business in a more holistic way.</li>
+							<li>When the team understands the impact of issues from a broader perspective, more effective and sustained problem solving can emerge and be implemented across the organization.</li>
+							<li>When the team consults with a variety of sources independently, they are better equipped to clearly articulate the root of a problem and express the pros and cons of potential solutions.</li>
+							<li>Consulting with a variety of sources across the organization assists the team with developing projects and programs that represent the needs of the organization as a whole. </li>
+ 							</ul></p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+				  <!-- Flipcard 2 End -->
+
+				  <!-- Flipcard 3 Begin -->
+
+				  <div class="flip-card col-sm-8 col-md-5 col-lg-4" style="margin-bottom: 20px">
+					<div class="flip-card-inner">
+					  <div class="flip-card-front" style="padding: 30px">
+						<h3 style="color: #0062c2; margin-bottom: 0px"> <b> Konica Minolta?</b></h3>
+						<br>
+						<br>
+						<p> <i> Rollover to scroll information </i></p>
+					  </div>
+					  <div class="flip-card-back" style="padding: 20px; text-align: left">
+						<h5>Konica Minolta?</h5>
+						<br>
+						<div class="overflow-auto anyClass">
+						  <p><ul>
+							<li>Understanding how organizational relationships interrelate and influence one another allows me to contribute to global initiatives in a meaningful way.</li>
+							<li>Embracing the interdependencies of different projects, initiatives and&#47;or programs and fostering their integration across the wider organization allows me to execute projects that have positive, global impact.</li>
+							<li>Continuously seeking out new ideas with a focus on connecting different concepts and contrasting ideas allows me to improve business scenarios and resolve core challenges across the organization.</li>
+							<li>When I think conceptually. I am able to simultaneously optimize the existing business model and search for innovative business models that facilitate company growth. In doing so, I am providing thought leadership to the organization as a whole.</li>
+ 							</ul></p>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
+				  <!-- Flipcard 3 End -->
+
+				 
+	  </div>
+	  </div>
+	   </section>
+		
+		
+	  <!-- Flipcard Section 1 End -->
+
+
+
+ <!-- Jam Question 2 Begins here -->
+		
+        
+              <section data-draggable="true" class="" style="position: relative;" id="ctjamquestion2"><!---->
+                  
+                  <!---->
+                  
+                  <section draggable="true" class="container pt-5" data-v-271253ee="">
+                      
+                    <section class="mb-10"> <style> @media (min-width: 992px) { #cta-img-nml-50 { margin-left: 50px; } } </style> 
+                        
+                    <div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700"> 
+                        
+                    <div class="col-lg-5 mb-4 mb-md-0"> 
+                        
+                    <div class="d-flex py-md-5"> 
+                        <img src="https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/big-picture-thinking.jpg?raw=true" class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10" alt="" aria-controls="#picker-editor"> 
+                    </div> 
+                        
+                    </div> 
+                        
+                    <div class="col-lg-7 mb-4 mb-md-0"> 
+                        
+                    <div class="bg-info h-100 rounded-6 p-4 ps-lg-5 text-white d-flex align-items-center"> 
+                        
+                        <div class="ps-lg-5"> 
+                            <h2 class="fw-bold mb-4"> How has &#34;big picture&#34; thinking been a benefit to completing projects more successfully? </h2> 
+                            
+                            
+                              <!-- Read Blog Button Begin -->
+                    
+                                <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2" href="https://jam4.sapjam.com/discussions/QphWe7qfScjjxdbjZi4wLh" target="_blank" role="button" id="ctdiscuss2"> Let&#39;s Discuss </a>
+                    
+                               <!-- Read Blog Button End -->
+                            
+                        </div> 
+                        
+                        </div> 
+                        
+                        </div> </div>
+                      
+                      </section>
+                  
+                  </section>
+        
+        </section>
+
+        <!-- Jam Question 2 End here -->
+
+		
+
+		<!-- GM Timeline Begins Here -->
+
+
+			<section id="ctjourney">
+				
+				<div class="row gx-3" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+	
+				<h1 class="mb-4 text" style="font-size: 7vh; text-align: center;"> 	
+				<b>The Conceptual Thinking Journey</b></h1>	
+				<p style="text-align: center; margin-bottom: 40px;">Conceptual Thinking facilitates an understanding of how events, people and processes impact the organization on a global scale. It also allows broad-based problem solving and idea creation  to take place so that true impact is realized.  The journey looks something like this:</p>
+				
+				
+				<div style="background-image: url('https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/whiteRoad2.jpg?raw=true'); margin-bottom: 120px;">
+				
+				
+				  <div class="container py-5">
+					<div class="main-timeline">
+						
+					  <div class="timeline left">
+						<div class="card">
+						  <div class="card-body p-4">
+							<h5>Starting Your Collaboration Journey</h5><br>
+							  
+							    <audio controls>
+								<source src="audio/CT/Start.mp3" type="audio/mpeg" id="ctj1a">
+								Your browser does not support the audio element.
+								</audio><br>Click the play button to listen to the audio.<br><br>
+							  
+							<p class="mb-0">As your ability to think conceptually matures, you understand how the different parts of the organization interrelate with one another and how that dynamic impacts the business. You instinctively evaluate business issues by extracting patterns, similarities and differences within the context of the &#34;bigger picture&#34;. You collect relevant data and information and then apply their insights to different business situations with the goal of solving problems and improving existing processes.  </p>
+						  </div>
+						</div>
+					  </div>
+						
+					  <div class="timeline right">
+						<div class="card">
+						  <div class="card-body p-4">
+							<h5>Continuing Your Collaboration Journey</h5><br>
+							  
+							  <audio controls>
+								<source src="audio/CT/Continue.mp3" type="audio/mpeg" id="ctj2a">
+								Your browser does not support the audio element.
+								</audio><br>Click the play button to listen to the audio.<br><br>
+							  
+							<p class="mb-0">As you progress, you consult with a variety of sources across the organization to develop innovative solutions to core problems that have global impact. You actively explore complex situations, capturing and analyzing information from different areas of the organization to formulate holistic assessments of business challenges. You focus on improving business scenarios with innovative and creative suggestions that resolve core challenges. You invite and involve others to explore new ideas with the focus on providing sustainable solutions that resolve core challenges.
+ </p>
+						  </div>
+						</div>
+					  </div>
+						
+					  <div class="timeline left">
+						<div class="card">
+						  <div class="card-body p-4">
+							<h5>Developing Collaboration for High Impact</h5><br>
+							  
+							  <audio controls>
+								<source src="audio/CT/High_Impact.mp3" type="audio/mpeg" id="ctj3a">
+								Your browser does not support the audio element.
+								</audio><br>Click the play button to listen to the audio.<br><br>
+							  
+							<p class="mb-0">Your ability to think systematically and understand highly complex business scenarios that impact multiple areas of the organization is instinctive to you. You embrace the interdependencies of different projects and initiatives and foster their integration across the wider organization. You continuously seek out new ideas with a focus on innovation and improvement as you connect different concepts and contrasting ideas to improve business scenarios and resolve core challenges. You are recognized as an ambidextrous thought leader who is able to simultaneously optimize existing business models while searching for innovative ones.</p>
+						  </div>
+						</div>
+					  </div>
+						
+					</div>
+				  </div>
+				</div>	
+				</div>
+			   </section>
+
+			  <!-- Section: Basic example -->
+
+
+		<!-- GM Timeline Ends Here -->
+
+
+		<!-- Think About This... Start Here --> 
+
+			<section id="thinkaboutthis2">
+				<div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+			<h1 class="mb-4 text" style="font-size: 5vh; text-align: center; margin-bottom: 120px;"><i class="fab fa-medapps"></i> <b>Think About This: Which statement reflects your stage in the Conceptual Thinking journey?</b></h1>
+					<h5><b>Statement 1:</b> 
+						 I understand how the different events within parts of the organization interrelate with one another and how that dynamic impacts the business. <br><br>
+						<b>Statement 2:</b>
+						 I actively explore complex situations, capturing and analyzing information from different areas of the organization to formulate holistic assessments of business challenges.<br><br>
+						<b>Statement 3:</b> 
+						I embrace the interdependencies of different projects and initiatives and fosters their integration across the wider organization. 
+						</h5>
+				</div>
+					</section>
+
+		<!-- Think About This... Ends Here -->	
+
+
+
+		<!-- 3rd Party Content Starts Here -->
+
+			<section style="margin-bottom: 70px;" id="thridpartycontent">
+				
+				<div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+				
+			<h1 class="mb-4 text" style="font-size: 7vh; text-align: center; margin-top: 70px;"> <b>More about Conceptual Thinking</b></h1>	
+				<p style="text-align: center; margin-bottom: 40px;">The content below has been carefully selected to provide you with additional perspective about Conceptual Thinking. This  includes discussions about the various attributes, behaviors and stages of individuals who have embraced the value of Developing People to improve performance outcomes for individuals as well as  the organization. Take a look. </p>
+				
+				  <!-- Header End -->
+
+                <div class="row justify-content-center" style="padding-top: 60px;">
+					
+					                  <!-- Card 4 Begin -->
+                  <div class="col-md-4 col-10 text-center" style="margin-bottom: 30px" data-mdb toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-toggle="animation" data-mdb-animation-delay="700">
+                    <div class="card">
+                      <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
+                        <img src="https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/%20HowToDevelopConceptualThinking.jpg?raw=true" class="img-fluid"/>
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> How To Develop Conceptual Thinking  </h5>
+                        <p class="card-text"></p>
+                        <a href="https://www.indeed.com/career-advice/career-development/thinking-conceptually" class="btn btn-primary" target="_blank"> Read Post </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 End -->
+                    
+               
+                   
+                    <!-- Card 4 Begin -->
+                  <div class="col-md-4 col-10 text-center" style="margin-bottom: 30px" data-mdb toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-toggle="animation" data-mdb-animation-delay="700">
+                    <div class="card">
+                      <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
+                        <img src="https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/buildingcollaborativerelationshipsworkplace.png?raw=true" class="img-fluid"/>
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> Building Collaborative Relationships in the Workplace  </h5>
+                        <p class="card-text"></p>
+                        <a href="https://www.indeed.com/career-advice/resumes-cover-letters/conceptual-skill" class="btn btn-primary" target="_blank"> Read Post </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 End -->
+					
+					 <!-- Card 1 Begin -->
+                  <div class="col-md-4 col-10 text-center" style="margin-bottom: 10px;" data-mdb toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-toggle="animation" data-mdb-animation-delay="100">
+                    <div class="card">
+                      <div class="bg-image hover-zoom">
+                        <img src="https://img.youtube.com/vi/HZRDUZuIKg4/default.jpg" width="70%" alt="" class="img-fluid"/>
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">The Most Powerful Way to Think | First Principles </h5>
+						  <p class="card-text"></p>
+                        <a href="https://www.youtube.com/watch?v=HZRDUZuIKg4" class="btn btn-primary" target="_blank"> Watch Video </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 1 End -->
+					
+					<!-- Card 4 Begin -->
+                  <div class="col-md-4 col-10 text-center" style="margin-bottom: 30px" data-mdb toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-toggle="animation" data-mdb-animation-delay="700">
+                    <div class="card">
+                      <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
+                        <img src="https://www.honestly.com/blog/wp-content/webp-express/webp-images/uploads/2019/01/conceptual-thinking_rawpixel-unsplash.jpg.webp" class="img-fluid"/>
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> Cultivate Your Conceptual Thinking for Visionary Leadership  </h5>
+                        <p class="card-text"></p>
+                        <a href="https://www.honestly.com/blog/cultivate-conceptual-thinking/" class="btn btn-primary" target="_blank"> Read Post </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 End -->
+					
+					<!-- Card 4 Begin -->
+                  <div class="col-md-4 col-10 text-center" style="margin-bottom: 30px" data-mdb toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-toggle="animation" data-mdb-animation-delay="700">
+                    <div class="card">
+                      <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
+                        <img src="https://smallbusinessify.com/wp-content/uploads/2021/09/How-To-Improve-Conceptual-Skills.jpg" class="img-fluid"/>
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> How To Improve Conceptual Skills </h5>
+                        <p class="card-text"></p>
+                        <a href="https://smallbusinessify.com/how-to-improve-conceptual-skills/" class="btn btn-primary" target="_blank"> Read Post </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 End -->      
+      
+            </div>
+				</div>
+		</section>
+
+		<!-- 3rd Party Playlist Starts Here -->
+
+<!-- Jam Question 3 Begins here -->
+		
+        
+              <section data-draggable="true" class="" style="position: relative;" id="ctjamquestion3"><!---->
+                  
+                  <!---->
+                  
+                  <section draggable="true" class="container pt-5" data-v-271253ee="">
+                      
+                    <section class="mb-10"> <style> @media (min-width: 992px) { #cta-img-nml-50 { margin-left: 50px; } } </style> 
+                        
+                    <div class="row gx-0" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700"> 
+                        
+                    <div class="col-lg-5 mb-4 mb-md-0"> 
+                        
+                    <div class="d-flex py-md-5"> 
+                        <img src="https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/Questionmark.jpg?raw=true" class="w-100 rounded-5 shadow-3-strong" id="cta-img-nml-50" style="z-index: 10" alt="" aria-controls="#picker-editor"> 
+                    </div> 
+                        
+                    </div> 
+                        
+                    <div class="col-lg-7 mb-4 mb-md-0"> 
+                        
+                    <div class="bg-info h-100 rounded-6 p-4 ps-lg-5 text-white d-flex align-items-center"> 
+                        
+                        <div class="ps-lg-5"> 
+                            <h2 class="fw-bold mb-4"> Do you have any questions about Conceptual Thinking? </h2> 
+                            
+                            
+                              <!-- Read Blog Button Begin -->
+                    
+                                <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2" href="https://jam4.sapjam.com/discussions/eEE2LkW5uHDtzb4DP5lOR5" target="_blank" role="button" id="ctdiscuss3"> Let's Discuss </a>
+                    
+                               <!-- Read Blog Button End -->
+                            
+                        </div> 
+                        
+                        </div> 
+                        
+                        </div> </div>
+                      
+                      </section>
+                  
+                  </section>
+        
+        </section>
+
+        <!-- Jam Question 2 End here -->
+
+
+
+        <!-- Take Survey Begin -->
+
+        <section style="margin-bottom: 70px;" id="takesurvey">
+        <div class="text-center" style="background-color: #c0167b">
+          <div class="container pb-md-5">
+            <div class="row d-flex justify-content-center">
+				
+              <div class="col-lg-10" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+                
+				  <h1 class="mb-4 text" style="color: white; padding-top: 30px; font-size: 4vh; text-align: center;"><b>What are your experiences in Conceptual Thinking? </b></h1>
+				  
+                <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in-left" data-mdb-animation-delay="700" href="https://performancemanager4.successfactors.com/sf/learning?destUrl=https%3a%2f%2fkmbs%2eplateau%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3dCC%2dSURV2%26componentTypeID%3dONLINE%26revisionDate%3d1664914800000%26fromSF%3dY&company=KonicaMinolta" target="_blank" role="button" id="ctsurvey"> Take the brief survey </a> 
+                  
+                </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- Take Survey End -->
+
+
+        <!-- DX Action CTA Begin -->
+
+        <section style="margin-bottom: 70px;" id="ctadxaction">
+        <div class="text-center">
+          <div class="container pb-md-5">
+            <div class="row d-flex justify-content-center">
+				
+              <div class="col-lg-10" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="700">
+                
+				  <h1 class="mb-4 text" style="font-size: 4vh; text-align: center;"><b> Do you want to hear more from you colleagues about how competencies impact Konica Minolta&#39;s Digital Transformation? </b></h1>
+				  
+                <a class="btn btn-primary btn-lg py-3 px-5 mb-5 mb-md-0 me-md-2" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in-right" data-mdb-animation-delay="700" href="action.html" role="button" id="ctdxinaction"> Go to DX in Action </a> 
+                  
+                </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- DX Action CTA End -->
+
+
+       <!-- eBook Begins here -->
+		
+	
+            <section class="container col-12" id="ctebook">
+            
+            <div class="row justify-content-center border-0" style="margin-bottom: 60px; border-style: groove; padding: 5px" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation-on-scroll="repeat" data-mdb-animation="fade-in" data-mdb-animation-delay="500" >
+                
+
+              <iframe src="custom/conceptualthinkingebook/index.html" title="mykmbs" width="100%" height="550">  </iframe>
+                
+
+            </div>
+
+        </section>
+
+        <!-- eBook End here -->
         
 
 
